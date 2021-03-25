@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-lg-12 mt-5">
 
-                    <carousel class="product-slider" :item="3" :nav="false" :autoplay="true">
+                    <carousel class="product-slider" :item="3" :nav="false" :autoplay="true" :dots="false">
                         <div class="product-item">
                             <div class="pi-pic">
                                 <img src="img/mickey1.jpg" alt="" />
