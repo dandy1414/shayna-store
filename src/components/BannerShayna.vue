@@ -13,14 +13,16 @@
                                     <li class="w-icon active">
                                         <a href="#"><i class="icon_bag_alt"></i></a>
                                     </li>
-                                    <li class="quick-view"><a href="product.html">+ Quick View</a></li>
+                                    <li class="quick-view">
+                                        <router-link to="/product">+ Quick View</router-link>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="pi-text">
                                 <div class="catagory-name">Coat</div>
-                                <a href="#">
-                                    <h5>Mickey Baggy</h5>
-                                </a>
+                                    <a href="">
+                                        <h5>Mickey Baggy</h5>
+                                    </a>
                                 <div class="product-price">
                                     $14.00
                                     <span>$35.00</span>
@@ -100,23 +102,23 @@
 </template>
 
 <script>
-import carousel from 'vue-owl-carousel';
+    import carousel from 'vue-owl-carousel';
 
-export default {
-    name: "BannerShayna",
-    components: {
-        carousel
+    export default {
+        name: "BannerShayna",
+        components: {
+            carousel
+        }
     }
-}
 </script>
 
 <style scoped>
-.product-item {
-    margin-right: 25px;
-}
+    .product-item {
+        margin-right: 25px;
+    }
 
-.product-item .pi-pic img {
-    min-width: 100%;
-    height: 600px;
-}
+    .product-item .pi-pic img {
+        min-width: 100%;
+        height: 600px;
+    }
 </style>
